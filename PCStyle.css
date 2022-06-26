@@ -1,0 +1,359 @@
+
+/* Style the navbar */
+#navbar {
+  overflow: hidden;
+  background-color: rgb(0, 0, 0);
+  position: absolute;
+  width: 100%;
+  z-index: 25;
+  font-family: sans-serif;
+  /* border: 1px solid rgb(0, 134, 40); */
+}
+
+/* Navbar links */
+#navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+
+}
+
+/* Page content */
+.content {
+  padding: 1000;
+}
+
+/* The sticky class is added to the navbar with JS when it reaches its scroll position */
+.sticky { 
+  top: 0;
+  width: 100%;
+  transition: top 0.7s ease 0s;
+
+
+  animation: positionFixed 0.1s;
+  animation-delay: 0.01s;
+  animation-fill-mode: forwards;
+}
+@keyframes positionFixed {
+  from {
+    position: relative;
+  }
+  to {
+    position: fixed;
+  }
+}
+
+/* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
+.sticky + .content {
+  padding-top: 60px;
+}
+
+.socials-container {
+  
+  position: relative;
+  top: 000;
+  text-align: center;
+}
+.header-text {
+  position: absolute;
+  font-family: sans-serif;
+
+  margin-left: 15%;
+  margin-right: auto;
+
+  top: 20%;
+  font-size: 400%;
+  z-index: 0;
+}
+.header-Img {
+  position: relative;
+  width: 100%;
+  
+  margin-top: -20%;
+  box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 15%) !important;
+  z-index: -20;
+}
+
+
+.line-2-black {
+  position: relative;
+  width: 100%;
+  height: 5px;
+
+  top: 0;
+
+  background-color: black;
+
+}
+
+
+
+.flocking-proj-container {
+  position: relative;
+  bottom: 300;
+  right: 20%;
+}
+.L-system-proj-container {
+  position: relative;
+  bottom: 250;
+  height: 500;
+
+  right: 20%;
+}
+.Fractal-Tree-proj-container {
+  position: absolute;
+ 
+
+  left: 50%;
+  width: 800;
+
+  bottom: 461;
+
+  height: 400;
+}
+
+
+
+
+
+
+
+
+.Flocking-Proj:hover {
+  width: 700px;
+  max-width: 600vh;
+  height: 24vh;
+
+  box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 15%) !important;
+
+
+  transition: all 0.5s ease 0s;
+  
+}
+
+.sourceCode-button {
+  font-size:250%;
+  font-family: sans-serif;
+  background-color: #27a6f5;
+  transition-duration: 0.3s;
+  position: absolute;
+
+  width: 300;
+
+  top: 90%;
+  right: 50%;
+
+  box-shadow: 0 0.1rem 1rem #27a6f5 !important;
+
+  border-radius: 4px;
+  color: rgb(24, 24, 24);
+
+  transition: all 1s ease 0s;
+
+  border: none;
+  outline: none;
+  
+}
+.sourceCode-button:hover {
+  background-color: rgb(58, 230, 36);
+  font-size:255%;
+  
+  color: rgb(0, 0, 0);
+  border-radius: 5px;
+  transition: all 0.2s ease 0s;
+  box-shadow: 0 0.1rem 1rem rgb(58, 230, 36) !important;
+  cursor: pointer;
+}
+
+
+div.Flocking-Proj:hover  h2.flocking-Body-text  {
+ 
+  font-size: 120%;
+  margin-left: 350px;
+  opacity: 1;
+  transition: all 0.7s ease 0s;
+}
+div.Flocking-Proj:hover button.sourceCode-button {
+  
+  
+  left: 10;
+  opacity: 1;
+  transition: all 1s ease 0s;
+}
+
+.Fl-Img:hover {
+
+  filter:brightness(1.3);
+  transition: filter 1s ease 0s;
+}
+
+
+
+
+
+
+.L-system-Proj:hover {
+  width: 600px;
+  max-width: 600vh;
+  height: 24vh;
+
+  box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 15%) !important;
+
+
+  transition: all 0.5s ease 0s;
+  
+}
+.L-system-Img:hover {
+
+  filter:brightness(1.3);
+  transition: filter 1s ease 0s;
+}
+.L-system-sourceCode-button {
+  font-size:250%;
+  font-family: sans-serif;
+  background-color: #27a6f5;
+  transition-duration: 0.3s;
+  position: absolute;
+
+  width: 300;
+
+  top: 90%;
+  right: 50%;
+
+  box-shadow: 0 0.1rem 1rem #27a6f5 !important;
+
+  border-radius: 4px;
+  color: rgb(24, 24, 24);
+
+  transition: all 1s ease 0s;
+
+  border: none;
+  outline: none;
+  
+}
+.L-system-sourceCode-button:hover {
+  background-color: rgb(58, 230, 36);
+  font-size:255%;
+  
+  color: rgb(0, 0, 0);
+  border-radius: 5px;
+  transition: all 0.2s ease 0s;
+  box-shadow: 0 0.1rem 1rem rgb(58, 230, 36) !important;
+  cursor: pointer;
+}
+
+
+div.L-system-Proj:hover  h2.L-system-Body-text  {
+ 
+  font-size: 120%;
+  margin-left: 250px;
+  opacity: 1;
+  transition: all 0.7s ease 0s;
+}
+div.L-system-Proj:hover button.L-system-sourceCode-button {
+  
+  
+  left: 10;
+  opacity: 1;
+  transition: all 1s ease 0s;
+}
+
+
+
+
+
+
+.Fractal-Tree-Proj:hover {
+  width: 600px;
+  max-width: 600vh;
+  height: 24vh;
+
+  box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 15%) !important;
+
+
+  transition: all 0.5s ease 0s;
+  
+}
+.Fractal-Tree-Img:hover {
+
+  filter:brightness(1.3);
+  transition: filter 1s ease 0s;
+}
+.Fractal-Tree-sourceCode-button {
+  font-size:250%;
+  font-family: sans-serif;
+  background-color: #27a6f5;
+  transition-duration: 0.3s;
+  position: absolute;
+
+  width: 300;
+
+  top: 13vh;
+  right: 50%;
+
+  box-shadow: 0 0.1rem 1rem #27a6f5 !important;
+
+  border-radius: 4px;
+  color: rgb(24, 24, 24);
+
+  transition: all 1s ease 0s;
+
+  border: none;
+  outline: none;
+  
+}
+.Fractal-Tree-sourceCode-button:hover {
+  background-color: rgb(58, 230, 36);
+  font-size:255%;
+  
+  color: rgb(0, 0, 0);
+  border-radius: 5px;
+  transition: all 0.2s ease 0s;
+  box-shadow: 0 0.1rem 1rem rgb(58, 230, 36) !important;
+  cursor: pointer;
+}
+
+
+div.Fractal-Tree-Proj:hover  h2.Fractal-Tree-Body-text  {
+ 
+  font-size: 120%;
+  margin-left: 250px;
+  opacity: 1;
+  transition: all 0.7s ease 0s;
+}
+div.Fractal-Tree-Proj:hover button.Fractal-Tree-sourceCode-button {
+  
+  
+  left: 10;
+  opacity: 1;
+  transition: all 1s ease 0s;
+}
+
+
+
+
+.endOfPage-container {
+  position:relative;
+  bottom: 0;
+  
+  left: auto;
+  
+
+  width: 100%;
+
+  padding-bottom: 100;
+
+}
+
+.endOfPage-Socials {
+  position:absolute;
+  
+  
+
+  width: 100%;
+  height: 100px;
+  top: 10;
+}
