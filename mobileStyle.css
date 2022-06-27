@@ -176,7 +176,7 @@
     box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 15%) !important;
   
     background-color: rgb(255, 255, 255);
-    border-radius: 5px;
+    border-radius: 10px;
     box-shadow: rgb(212, 0, 0);
   
     transition: width 0.25s ease 0s;
@@ -208,7 +208,7 @@
     box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 15%) !important;
   
     background-color: rgb(255, 255, 255);
-    border-radius: 5px;
+    border-radius: 10px;
     box-shadow: rgb(212, 0, 0);
   
     transition: width 0.25s ease 0s;
@@ -220,7 +220,7 @@
   position: relative;
   width: auto;
   height: 100%;
-  border-radius: 5px;
+  border-radius: 10px;
   box-shadow: #333;
 
   
