@@ -38,7 +38,7 @@ body {
   /* display: none; */
 }
 .canvasJump {
-  margin-top: -40%;
+  margin-top: -50%;
   transition: margin-top 0.7s ease 0s;
 }
 

@@ -147,7 +147,7 @@
 
     
 
- <!-- <div class="endOfPage-container">
+      <!-- <div class="endOfPage-container">
         <div class="endOfPage-container-Line">
     
         </div>
@@ -177,7 +177,7 @@
       if (window.pageYOffset >= 0) {
         FlowFieldContainer.style.display = "revert";
       }
-      
+      setInterval(function () {if (window.pageYOffset > 0) {myCanvas.style.display = "none";}}, 1000);
      
 
       if (window.pageYOffset > 0) {
@@ -195,7 +195,7 @@
         navbar.classList.remove("sticky");
       }
 
-      if (window.pageYOffset > 300) {
+      if (window.pageYOffset > 500) {
         myCanvas.style.display = "none";
       }
       
