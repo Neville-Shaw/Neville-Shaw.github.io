@@ -1,6 +1,4 @@
-
 /* Yes I am aware that this is possibly the most hideous css code to ever exist but it works soooo... */
-
 
 /* Style the navbar */
 #navbar {
@@ -25,7 +23,6 @@
   text-align: center;
   padding: 14px;
   text-decoration: none;
-
 }
 
 /* Page content */
@@ -34,11 +31,10 @@
 }
 
 /* The sticky class is added to the navbar with JS when it reaches its scroll position */
-.sticky { 
+.sticky {
   top: 0;
   width: 100%;
   transition: top 0.7s ease 0s;
-
 
   animation: positionFixed 0.1s;
   animation-delay: 0.01s;
@@ -59,7 +55,6 @@
 }
 
 .socials-container {
-  
   position: relative;
   top: 000;
   text-align: center;
@@ -78,12 +73,11 @@
 .header-Img {
   position: relative;
   width: 100%;
-  
+
   margin-top: -20%;
   box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 15%) !important;
   z-index: -20;
 }
-
 
 .line-2-black {
   position: relative;
@@ -93,10 +87,7 @@
   top: 0;
 
   background-color: black;
-
 }
-
-
 
 .flocking-proj-container {
   position: relative;
@@ -112,7 +103,6 @@
 }
 .Fractal-Tree-proj-container {
   position: absolute;
- 
 
   left: 50%;
   width: 800;
@@ -126,7 +116,7 @@
 
 .Checkers-proj-container {
   position: absolute;
- 
+
   top: 880;
   left: 9%;
   width: 800;
@@ -136,23 +126,24 @@
   height: 400;
 }
 
+.backGround {
+  background-color: rgb(30, 30, 30);
+}
 
 .Checkers-Proj {
   width: 20%;
   height: 24vh;
   min-width: 40vh;
   margin: auto;
-  margin-top: 40;  
+  margin-top: 40;
   z-index: -2;
-
-  
-
 
   min-height: 200px;
 
   box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 15%) !important;
 
-  background-color: rgb(255, 255, 255);
+  background-color: rgb(20, 20, 20);
+  opacity: 95%;
   border-radius: 5px;
   box-shadow: rgb(212, 0, 0);
 
@@ -166,9 +157,7 @@
 
   box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 15%) !important;
 
-
   transition: all 0.5s ease 0s;
-  
 }
 
 .Checkers-Img {
@@ -179,9 +168,7 @@
   border-radius: 5px;
   box-shadow: #333;
 
-  
-  
-
+  opacity: 100%;
   float: left;
   box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 15%) !important;
   margin-left: -0%;
@@ -189,12 +176,11 @@
   transition: all 1s ease 0s;
 }
 .Checkers-Img:hover {
-
-  filter:brightness(0.9);
+  filter: brightness(0.9);
   transition: filter 1s ease 0s;
 }
 .Checkers-sourceCode-button {
-  font-size:250%;
+  font-size: 250%;
   font-family: sans-serif;
   background-color: #27a6f5;
   transition-duration: 0.3s;
@@ -217,8 +203,8 @@
 }
 .Checkers-sourceCode-button:hover {
   background-color: rgb(58, 230, 36);
-  font-size:255%;
-  
+  font-size: 255%;
+
   color: rgb(0, 0, 0);
   border-radius: 5px;
   transition: all 0.2s ease 0s;
@@ -226,27 +212,22 @@
   cursor: pointer;
 }
 
-
-div.Checkers-Proj:hover  h2.Checkers-Body-text  {
- 
+div.Checkers-Proj:hover h2.Checkers-Body-text {
   font-size: 120%;
   margin-left: 250px;
   opacity: 1;
   transition: all 0.7s ease 0s;
 }
 div.Checkers-Proj:hover button.Checkers-sourceCode-button {
-  
-  
   left: 10;
   opacity: 1;
   transition: all 1s ease 0s;
 }
 
-
 /* ---------------------- */
 .Doomsday-proj-container {
   position: absolute;
- 
+
   top: 523;
   left: 50%;
   width: 800;
@@ -256,23 +237,20 @@ div.Checkers-Proj:hover button.Checkers-sourceCode-button {
   height: 400;
 }
 
-
 .Doomsday-Proj {
   width: 20%;
   height: 24vh;
   min-width: 40vh;
   margin: auto;
-  margin-top: 40;  
+  margin-top: 40;
   z-index: -2;
-
-  
-
 
   min-height: 200px;
 
   box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 15%) !important;
 
-  background-color: rgb(255, 255, 255);
+  background-color: rgb(20, 20, 20);
+  opacity: 95%;
   border-radius: 5px;
   box-shadow: rgb(212, 0, 0);
 
@@ -286,9 +264,7 @@ div.Checkers-Proj:hover button.Checkers-sourceCode-button {
 
   box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 15%) !important;
 
-
   transition: all 0.5s ease 0s;
-  
 }
 
 .Doomsday-Img {
@@ -299,9 +275,7 @@ div.Checkers-Proj:hover button.Checkers-sourceCode-button {
   border-radius: 5px;
   box-shadow: #333;
 
-  
-  
-
+  opacity: 100%;
   float: left;
   box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 15%) !important;
   margin-left: -0%;
@@ -309,12 +283,11 @@ div.Checkers-Proj:hover button.Checkers-sourceCode-button {
   transition: all 1s ease 0s;
 }
 .Doomsday-Img:hover {
-
-  filter:brightness(1.3);
+  filter: brightness(1.3);
   transition: filter 1s ease 0s;
 }
 .Doomsday-sourceCode-button {
-  font-size:250%;
+  font-size: 250%;
   font-family: sans-serif;
   background-color: #27a6f5;
   transition-duration: 0.3s;
@@ -334,12 +307,11 @@ div.Checkers-Proj:hover button.Checkers-sourceCode-button {
 
   border: none;
   outline: none;
-  
 }
 .Doomsday-sourceCode-button:hover {
   background-color: rgb(58, 230, 36);
-  font-size:255%;
-  
+  font-size: 255%;
+
   color: rgb(0, 0, 0);
   border-radius: 5px;
   transition: all 0.2s ease 0s;
@@ -347,17 +319,13 @@ div.Checkers-Proj:hover button.Checkers-sourceCode-button {
   cursor: pointer;
 }
 
-
-div.Doomsday-Proj:hover  h2.Doomsday-Body-text  {
- 
+div.Doomsday-Proj:hover h2.Doomsday-Body-text {
   font-size: 120%;
   margin-left: 250px;
   opacity: 1;
   transition: all 0.7s ease 0s;
 }
 div.Doomsday-Proj:hover button.Doomsday-sourceCode-button {
-  
-  
   left: 10;
   opacity: 1;
   transition: all 1s ease 0s;
@@ -365,23 +333,20 @@ div.Doomsday-Proj:hover button.Doomsday-sourceCode-button {
 
 /* ------------------------ */
 
-
 .Flocking-Proj {
-  
   width: 20%;
   height: 24vh;
   min-width: 40vh;
   margin: auto;
-  margin-top: 500;  
+  margin-top: 500;
   z-index: -2;
 
-  
-
   min-height: 200px;
-
+  background-color: rgb(20, 20, 20);
+  opacity: 95%;
   box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 15%) !important;
 
-  background-color: rgb(255, 255, 255);
+  /* background-color: rgb(255, 255, 255); */
   border-radius: 5px;
   box-shadow: rgb(212, 0, 0);
 
@@ -395,9 +360,7 @@ div.Doomsday-Proj:hover button.Doomsday-sourceCode-button {
 
   box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 15%) !important;
 
-
   transition: all 0.5s ease 0s;
-  
 }
 
 .Fl-Img {
@@ -408,8 +371,7 @@ div.Doomsday-Proj:hover button.Doomsday-sourceCode-button {
   border-radius: 5px;
   box-shadow: #333;
 
-  
-
+  opacity: 100%;
   float: left;
   box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 15%) !important;
   margin-left: -0%;
@@ -418,7 +380,7 @@ div.Doomsday-Proj:hover button.Doomsday-sourceCode-button {
 }
 
 .sourceCode-button {
-  font-size:250%;
+  font-size: 250%;
   font-family: sans-serif;
   background-color: #27a6f5;
   transition-duration: 0.3s;
@@ -438,12 +400,11 @@ div.Doomsday-Proj:hover button.Doomsday-sourceCode-button {
 
   border: none;
   outline: none;
-  
 }
 .sourceCode-button:hover {
   background-color: rgb(58, 230, 36);
-  font-size:255%;
-  
+  font-size: 255%;
+
   color: rgb(0, 0, 0);
   border-radius: 5px;
   transition: all 0.2s ease 0s;
@@ -451,56 +412,37 @@ div.Doomsday-Proj:hover button.Doomsday-sourceCode-button {
   cursor: pointer;
 }
 
-
-div.Flocking-Proj:hover  h2.flocking-Body-text  {
- 
+div.Flocking-Proj:hover h2.flocking-Body-text {
   font-size: 120%;
   margin-left: 350px;
   opacity: 1;
   transition: all 0.7s ease 0s;
 }
 div.Flocking-Proj:hover button.sourceCode-button {
-  
-  
   left: 10;
   opacity: 1;
   transition: all 1s ease 0s;
 }
 
 .Fl-Img:hover {
-
-  filter:brightness(1.3);
+  filter: brightness(1.3);
   transition: filter 1s ease 0s;
 }
-
-.flocking-heading-text {
-  font-family: sans-serif;
-  position: relative;
-  text-align: center;
-  
-
-  color: black;
-  top: 490px;
-  
-  /* border: 1px solid rgb(0, 134, 40); */
-  text-overflow: ellipsis;
-  
-}
-
 
 .L-system-Proj {
   width: 20%;
   height: 24vh;
   min-width: 40vh;
   margin: auto;
-  margin-top: 40;  
+  margin-top: 40;
   z-index: -2;
 
   min-height: 200px;
-
+  background-color: rgb(20, 20, 20);
+  opacity: 95%;
   box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 15%) !important;
 
-  background-color: rgb(255, 255, 255);
+  /* background-color: rgb(255, 255, 255); */
   border-radius: 5px;
   box-shadow: rgb(212, 0, 0);
 
@@ -514,9 +456,7 @@ div.Flocking-Proj:hover button.sourceCode-button {
 
   box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 15%) !important;
 
-
   transition: all 0.5s ease 0s;
-  
 }
 
 .L-system-Img {
@@ -527,8 +467,7 @@ div.Flocking-Proj:hover button.sourceCode-button {
   border-radius: 5px;
   box-shadow: #333;
 
-  
-
+  opacity: 100%;
   float: left;
   box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 15%) !important;
   margin-left: -0%;
@@ -537,12 +476,11 @@ div.Flocking-Proj:hover button.sourceCode-button {
 }
 
 .L-system-Img:hover {
-
-  filter:brightness(1.3);
+  filter: brightness(1.3);
   transition: filter 1s ease 0s;
 }
 .L-system-sourceCode-button {
-  font-size:250%;
+  font-size: 250%;
   font-family: sans-serif;
   background-color: #27a6f5;
   transition-duration: 0.3s;
@@ -562,12 +500,11 @@ div.Flocking-Proj:hover button.sourceCode-button {
 
   border: none;
   outline: none;
-  
 }
 .L-system-sourceCode-button:hover {
   background-color: rgb(58, 230, 36);
-  font-size:255%;
-  
+  font-size: 255%;
+
   color: rgb(0, 0, 0);
   border-radius: 5px;
   transition: all 0.2s ease 0s;
@@ -575,41 +512,32 @@ div.Flocking-Proj:hover button.sourceCode-button {
   cursor: pointer;
 }
 
-
-div.L-system-Proj:hover  h2.L-system-Body-text  {
- 
+div.L-system-Proj:hover h2.L-system-Body-text {
   font-size: 120%;
   margin-left: 250px;
   opacity: 1;
   transition: all 0.7s ease 0s;
 }
 div.L-system-Proj:hover button.L-system-sourceCode-button {
-  
-  
   left: 10;
   opacity: 1;
   transition: all 1s ease 0s;
 }
-
-
-
 
 .Fractal-Tree-Proj {
   width: 20%;
   height: 24vh;
   min-width: 40vh;
   margin: auto;
-  margin-top: 40;  
+  margin-top: 40;
   z-index: -2;
 
-  
-
-
   min-height: 200px;
-
+  background-color: rgb(20, 20, 20);
+  opacity: 95%;
   box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 15%) !important;
 
-  background-color: rgb(255, 255, 255);
+  /* background-color: rgb(255, 255, 255); */
   border-radius: 5px;
   box-shadow: rgb(212, 0, 0);
 
@@ -623,9 +551,7 @@ div.L-system-Proj:hover button.L-system-sourceCode-button {
 
   box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 15%) !important;
 
-
   transition: all 0.5s ease 0s;
-  
 }
 
 .Fractal-Tree-Img {
@@ -636,8 +562,7 @@ div.L-system-Proj:hover button.L-system-sourceCode-button {
   border-radius: 5px;
   box-shadow: #333;
 
-  
-
+  opacity: 100%;
   float: left;
   box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 15%) !important;
   margin-left: -0%;
@@ -645,12 +570,11 @@ div.L-system-Proj:hover button.L-system-sourceCode-button {
   transition: all 1s ease 0s;
 }
 .Fractal-Tree-Img:hover {
-
-  filter:brightness(1.3);
+  filter: brightness(1.3);
   transition: filter 1s ease 0s;
 }
 .Fractal-Tree-sourceCode-button {
-  font-size:250%;
+  font-size: 250%;
   font-family: sans-serif;
   background-color: #27a6f5;
   transition-duration: 0.3s;
@@ -670,12 +594,11 @@ div.L-system-Proj:hover button.L-system-sourceCode-button {
 
   border: none;
   outline: none;
-  
 }
 .Fractal-Tree-sourceCode-button:hover {
   background-color: rgb(58, 230, 36);
-  font-size:255%;
-  
+  font-size: 255%;
+
   color: rgb(0, 0, 0);
   border-radius: 5px;
   transition: all 0.2s ease 0s;
@@ -683,42 +606,31 @@ div.L-system-Proj:hover button.L-system-sourceCode-button {
   cursor: pointer;
 }
 
-
-div.Fractal-Tree-Proj:hover  h2.Fractal-Tree-Body-text  {
- 
+div.Fractal-Tree-Proj:hover h2.Fractal-Tree-Body-text {
   font-size: 120%;
   margin-left: 250px;
   opacity: 1;
   transition: all 0.7s ease 0s;
 }
 div.Fractal-Tree-Proj:hover button.Fractal-Tree-sourceCode-button {
-  
-  
   left: 10;
   opacity: 1;
   transition: all 1s ease 0s;
 }
 
-
-
-
 .endOfPage-container {
-  position:relative;
+  position: relative;
   bottom: 0;
-  
+
   left: auto;
-  
 
   width: 100%;
 
   padding-bottom: 100;
-
 }
 
 .endOfPage-Socials {
-  position:absolute;
-  
-  
+  position: absolute;
 
   width: 100%;
   height: 100px;
