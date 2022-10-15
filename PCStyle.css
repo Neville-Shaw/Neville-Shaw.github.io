@@ -154,7 +154,7 @@
   width: 600px;
   max-width: 600vh;
   height: 24vh;
-  opacity: 100%;
+  opacity: 99%;
   box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 15%) !important;
 
   transition: all 0.5s ease 0s;
@@ -261,7 +261,7 @@ div.Checkers-Proj:hover button.Checkers-sourceCode-button {
   width: 600px;
   max-width: 600vh;
   height: 24vh;
-  opacity: 100%;
+  opacity: 99%;
   box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 15%) !important;
 
   transition: all 0.5s ease 0s;
@@ -358,7 +358,7 @@ div.Doomsday-Proj:hover button.Doomsday-sourceCode-button {
   max-width: 600vh;
   height: 24vh;
 
-  opacity: 100%;
+  opacity: 99%;
   box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 15%) !important;
 
   transition: all 0.5s ease 0s;
@@ -454,7 +454,7 @@ div.Flocking-Proj:hover button.sourceCode-button {
   width: 600px;
   max-width: 600vh;
   height: 24vh;
-  opacity: 100%;
+  opacity: 99%;
   box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 15%) !important;
 
   transition: all 0.5s ease 0s;
@@ -549,7 +549,7 @@ div.L-system-Proj:hover button.L-system-sourceCode-button {
   width: 600px;
   max-width: 600vh;
   height: 24vh;
-  opacity: 100%;
+  opacity: 99%;
   box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 15%) !important;
 
   transition: all 0.5s ease 0s;
