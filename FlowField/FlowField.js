@@ -28,7 +28,7 @@ var FlowField = function(f) {
 
   f.setup = function() {
     // initilize the canvas position to the canvas container div
-    f.canvas = f.createCanvas(windowWidth, 1500);
+    f.canvas = f.createCanvas(windowWidth, 2000);
     f.canvas.parent("FlowFieldContainer");
     f.background(20);
 
