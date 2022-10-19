@@ -10,7 +10,7 @@
   <link rel="stylesheet" type="text/css" media="only screen and (min-device-width: 600px)" href="PCStyle.css" />
   <link rel="stylesheet" type="text/css" media="only screen and (min-device-width: 600px)" href="NewStyle.css" />
   
-  <script language="javascript" type="text/javascript" src="FlowField/FlowField.js"></script>
+  <script language="javascript" type="text/javascript" media="only screen and (min-device-width: 600px)" src="FlowField/FlowField.js"></script>
   <!-- Welcome Animation -->
   <script language="javascript" type="text/javascript" src="welcomeAnimation/sketch.js"></script>
   <script language="javascript" type="text/javascript" src="welcomeAnimation/vehicle.js"></script>
@@ -38,23 +38,11 @@
 
 <div class="socials-container">
   
-  <!-- <h1 class="header-text">
-    Neville Shaw's Homepage
-  </h1>
-
-  <h2 class="Informative-Iphones">
-    Press and hold the image to open
-  </h2>
-  
-  <img src="images/HomeImg.jpg" alt="Boids-simulation" class="header-Img">
-    
-   -->
-  <div class="line-2-black"></div>
 </div>
   
 
   
-
+  
 
   <div class="Proj-Container">
     <div id="FlowFieldContainer" class="FlowFieldCanvas"></div>
@@ -63,92 +51,130 @@
         <script src="FlowField/sketch.js" id="defaultCanvas1"></script>
       </cavas>
     </div> -->
+
+    <div class="Projects-Header-cont">
+      <div class="Projects-Header">My Projects</div>
+      <div class="line-2-black"></div>
+    </div>
    
-    
-       <div class="flocking-proj-container">
-        <h1 class="flocking-heading-text">
+    <div class="flocking-proj-container">
+      <div class="proj-box">
+        <h1 class="Heading-text">
           Flocking-Simulator
-        </h1>
-        <div class="Flocking-Proj">
-          <h2 class="flocking-Body-text">
+          <div class="Heading-text-line" id="FL-T-L"></div>
+        </h1> 
+        <div class="Body-text-cont">
+          <h2 class="Body-text">
+            
             Check out the source code here! 
-            <a href="https://github.com/Neville-Shaw/Flocking-Simulation"><button class="sourceCode-button">Source Code</button></a>
+            
           </h2>
+          <a href="https://github.com/Neville-Shaw/Flocking-Simulation"><button class="sourceCode-button">Source Code</button></a>
+        </div>
+        
+        <div class="Proj">
+          
           <a href="https://neville-shaw.github.io/Flocking-Simulation/" class="Flocking-Link">
-            <img src="images/Flocking-Simulation.jpg" alt="flocking-simulation-JPG" class="Fl-Img" >  
+            <img src="images/Flocking-Simulation.jpg" alt="flocking-simulation-JPG" class="img" >  
           </a>
         </div>
       </div>
-      
+    </div>
 
-
-      <div class="L-system-proj-container">
-        <h1 class="Proj-Heading-text">
-          L-system Simulator
-        </h1>
-        <div class="L-system-Proj">
-          <h2 class="L-system-Body-text">
+    <div class="Checkers-proj-container">
+      <div class="proj-box" id="C-proj-box">
+        <h1 class="Heading-text">
+          Checkers
+          <div class="Heading-text-line" id="C-T-L"></div>
+        </h1> 
+        <div class="Body-text-cont">
+          <h2 class="Body-text">
             Check out the source code here! 
-            <a href="https://github.com/Neville-Shaw/L-System-Simulator"><button class="L-system-sourceCode-button">Source Code</button></a>
-            
           </h2>
-          <a href="https://neville-shaw.github.io/L-System-Simulator/" class="L-system-Link">
-            <img src="images/L-System.jpg" alt="L-system-JPG" class="L-system-Img" >   
-          </a>
+          <a href="https://github.com/Neville-Shaw/Checkers-Game"><button class="sourceCode-button">Source Code</button></a>
         </div>
-      </div>
-    
-      
-    
-      <div class="Fractal-Tree-proj-container">
-        <h1 class="Proj-Heading-text">
-          Fractal-Tree Simulator
-        </h1>
-        <div class="Fractal-Tree-Proj">
-          <h2 class="Fractal-Tree-Body-text">
-            Check out the source code here! 
-            <a href="https://github.com/Neville-Shaw/Fractal-Tree-Simulator"><button class="Fractal-Tree-sourceCode-button">Source Code</button></a>
-            
-          </h2>
-          <a href="https://neville-shaw.github.io/Fractal-Tree-Simulator/" class="Fractal-Tree-Link">
-            <img src="images/OOF Tree.jpg" alt="Fractal-Tree-JPG" class="Fractal-Tree-Img" >   
-          </a>
-        </div>
-      </div>
-    
-      <div class="Doomsday-proj-container">
-        <h1 class="Proj-Heading-text">
-          Doomsday Algorithm
-        </h1>
-        <div class="Doomsday-Proj">
-          <h2 class="Doomsday-Body-text">
-            Check out the source code here! 
-            <a href="https://github.com/Neville-Shaw/Doomsday-Algorithm"><button class="Doomsday-sourceCode-button">Source Code</button></a>
-          </h2>
-          <a href="https://neville-shaw.github.io/Doomsday-Algorithm/" class="Doomsday-Link">
-            <img src="images/Doomsday-Algo.jpg" alt="Doomsday-simulation-JPG" class="Doomsday-Img" >  
-          </a>
-        </div>
-      </div>
-
-      <div class="Checkers-proj-container">
-        <h1 class="Proj-Heading-text">
-          Checkers Game
-        </h1>
-        <div class="Checkers-Proj">
-          <h2 class="Checkers-Body-text">
-            Check out the source code here! 
-            <a href="https://github.com/Neville-Shaw/Checkers-Game"><button class="Checkers-sourceCode-button">Source Code</button></a>
-          </h2>
+        <div class="Proj" id="C-img">
           <a href="https://neville-shaw.github.io/Checkers-Game/" class="Checkers-Link">
-            <img src="images/Checkers.jpg" alt="Checkers-JPG" class="Checkers-Img" >  
+            <img src="images/Checkers.jpg" alt="Checkers-JPG" class="img" >  
           </a>
         </div>
       </div>
+    </div>
 
-    
+   
+      
+    <div class="L-Syste-proj-container">
+      <div class="proj-box" id="LS-proj-box">
+        <h1 class="Heading-text">
+          L-System Simulator
+          <div class="Heading-text-line" id="LS-T-L"></div>
+        </h1> 
+        <div class="Body-text-cont">
+          <h2 class="Body-text">
+            Check out the source code here! 
+          </h2>
+          <a href="https://github.com/Neville-Shaw/L-System-Simulator"><button class="sourceCode-button">Source Code</button></a>
+        </div>
+        <div class="Proj" id="LS-img">
+          <a href="https://neville-shaw.github.io/L-System-Simulator/" class="L-System-Link">
+            <img src="images/L-System.jpg" alt="L-system-JPG" class="img">  
+          </a>
+        </div>
+      </div>
+    </div>
+      
 
-      <!-- <div class="endOfPage-container">
+
+
+    <div class="Fractal-Tree-proj-container">
+      <div class="proj-box" id="FT-proj-box">
+        <h1 class="Heading-text">
+          Fractal Tree Simulator
+          <div class="Heading-text-line" id="FT-T-L"></div>
+        </h1> 
+        <div class="Body-text-cont">
+          <h2 class="Body-text">
+            Check out the source code here! 
+          </h2>
+          <a href="https://github.com/Neville-Shaw/Fractal-Tree-Simulator"><button class="sourceCode-button">Source Code</button></a>
+        </div>
+        <div class="Proj" id="FT-img">
+          <a href="https://neville-shaw.github.io/Fractal-Tree-Simulator/" class="Fractal-Tree-Link">
+            <img src="images/OOF Tree.jpg" alt="Fractal-Tree-JPG" class="img">  
+          </a>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="Doomsday-proj-container">
+      <div class="proj-box" id="D-proj-box">
+        <h1 class="Heading-text">
+          Doomsday Algorithm
+          <div class="Heading-text-line" id="D-T-L"></div>
+        </h1> 
+        <div class="Body-text-cont">
+          <h2 class="Body-text">`
+            Check out the source code here! 
+          </h2>
+          <a href="https://github.com/Neville-Shaw/Doomsday-Algorithm"><button class="sourceCode-button">Source Code</button></a>
+        </div>
+        <div class="Proj" id="D-img">
+          <a href="https://neville-shaw.github.io/Doomsday-Algorithm/" class="Doomsday-Link">
+            <img src="images/Doomsday-Algo.jpg" alt="Doomsday-Algo-JPG" class="img">  
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  
+  <div class="EndThing">
+
+
+  </div>
+
+  <div class="endOfPage-container">
         <div class="endOfPage-container-Line">
     
         </div>
@@ -157,13 +183,7 @@
             Github
           </a>
         </div>
-      </div> -->
-    
-
-  </div>
-
-  
-
+      </div>
   <script>
     
     window.onscroll = function() {myFunction()};
