@@ -115,7 +115,10 @@ body {
 
 
 
-
+.link {
+  color: rgb(199, 199, 199);
+  text-decoration: none;
+}
 
 
 
